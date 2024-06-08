@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fighting game</title>
+    <link rel="stylesheet" href="CssFiles/ST.CSS"/>
+    <link rel="stylesheet"media="screen and (min-width: 801px)" href="CssFiles/GameCss.CSS"/>
+    <link rel="stylesheet" media="screen and (max-width: 800px)" href="/CssFiles/GameMobile.CSS"/>
+</head>
+<body id="gameStart">
+    
+    <div id="StartMenu">
+        <h1>Start Menu</h1>
+        <h3>Select Difficulty</h2>
+       
+        <form id="Difficulty">
+            <input type="radio" id="Easy" name="Difficulty" value="15">
+            <label for="Easy" id="Easy">Easy</label>
+
+            <input type="radio" id="Medium" name="Difficulty" value="20">
+            <label for="Medium" id="Medium">Medium</label>
+
+            <input type="radio" id="Hard" name="Difficulty" value="30">
+            <label for="Hard" id="Hard">Hard</label>
+        </form>
+
+        <h3>Select Map Size</h3>
+        <form id="Map">
+            <input type="radio" id="Small" name="Map" value="7">
+            <label for="Small" id="Easy">Small</label>
+
+            <input type="radio" id="Med" name="Map" value="12">
+            <label for="Med" id="Medium">Medium</label>
+
+            <input type="radio" id="Large" name="Map" value="15">
+            <label for="Large" id="Hard">Large</label>
+        </form>
+        <br>
+        <button onclick="Settings()">Start</button>
+
+        
+
+    </div>
+    
+  
+    <div id="Game">
+        <h1>Mines: <span id="mines-count">0</span></h1>
+        <div id="board"></div>
+        <br>
+        <img id="BombExplotion" src="/Pitcures/ExplotionGif.gif">
+        <button id="Restart-Button">Restart</button>
+
+        <div class="container" id="progress-bar"> 
+             <span id="Done-Procent">%</span>
+        </div> 
+
+    </div>
+
+    
+   
+
+    <script src="/JS files/Scr.JS"></script>
+    <script src="/JS files/Game.JS"></script>
+    <script src="/JS files/FixInGame.JS"></script>
+</body>
+</html>

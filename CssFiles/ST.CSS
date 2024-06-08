@@ -1,0 +1,120 @@
+#Intro{
+   background-image: url("/Pitcures/KPmDi51.jpeg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-color: black;
+}
+.Intro{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 6vw;
+    padding-left: 30vh;
+    padding-right: 30vh;
+    padding-top: 5%;
+    padding-bottom: 10%;
+    text-align: center;
+    color: aliceblue;
+    
+}
+.Buttons{
+    margin-left: 30%;
+    margin-right: 30%;
+    width: 40%;
+    margin-top: 1%;
+    font-size: 200%;
+    border-color:rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 15px;
+    height: 80px;
+    color: aliceblue;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.Buttons:hover{
+    color: black;
+    background-color: aliceblue;
+    box-shadow: 0 12px 16px 0 rgba(255, 255, 255, 0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.Options{
+    position: absolute;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 30%;
+    padding-top: 2%;
+    margin-left: 25%;
+    
+    visibility: hidden;
+    background-color: rgba(0, 0, 0, 0.658);
+
+}
+#h{
+    position: relative;
+    float: left;
+    margin-left: -230%;
+ 
+
+}
+.Options p{
+    color: aliceblue;
+    font-size: 300%;
+    margin-left: -10%;
+}
+
+#game{ 
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%; 
+    margin-top: 4%;
+    
+}
+#gameStart{ 
+    background-color: black;
+    background-image: url("/Pitcures/92-929056_m.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+#sc h1{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-top: 1%;
+    padding-bottom: 1%; 
+    visibility: visible;  
+}
+
+#canvas1{
+    border: 5px solid rgba(0, 0, 0);
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40px;
+    height: 40px;
+    transform: scaleX(1);
+}
+#Background{
+    border: 5px solid rgba(0, 0, 0);
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 250px;
+    height: 250px;
+    transform: scaleX(1);
+}
+
+#BombExplotion{
+    position: absolute;
+    top: 6%;
+    left: 6%;
+    width: 100%;
+  visibility: hidden;
+    
+}
+

@@ -1,0 +1,133 @@
+#Game{
+    visibility: hidden;
+    position: absolute;
+
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+#board {
+    border: 10px solid darkgray;
+    background-color: lightgray;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#progress-bar {
+    height: 20px;
+    background-color: rgb(146, 230, 245); /* Initial color */
+    width: 0%; /* Starts at 0% width */
+    border-radius: 5px;
+    transition: width 2s ease-in-out; /* Smooth transition */
+}
+
+#board div {
+    width: 48px;
+    height: 48px;
+    border: 1px solid whitesmoke;
+
+    /* text */
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tile-clicked {
+    background-color: darkgrey;
+}
+
+.x1 {
+    color: blue;
+}
+
+.x2 {
+    color: green;
+}
+
+.x3 {
+    color: red;
+}
+
+.x4 {
+    color: navy;
+}
+
+.x5 {
+    color: brown;
+}
+
+.x6 {
+    color: teal;
+}
+
+.x7 {
+    color: black;
+}
+
+.x8 {
+    color: gray;
+}
+
+
+.container { 
+    position: absolute;
+    top: 102%;
+    background-color: rgb(192, 192, 192); 
+    width: 100%; 
+    border-radius: 15px; 
+} 
+
+#Restart-Button{
+    width: 40%;
+    font-size: 250%;
+    color: white;
+    background-color: lightgray;
+    border: none;
+}
+
+#Restart-Button:hover{
+    background-color: grey;
+}
+
+#Easy{
+    color: green;
+}
+#Medium{
+    color: yellow;
+}
+#Hard{
+    color: red;
+}
+#StartMenu{
+
+    font-size: 120%;
+    width: 25%;
+    position: absolute;
+    color:aliceblue;
+    padding: 2%;
+    margin: 34%;
+    margin-top: 0%;
+    background: #0004283f;
+     
+}
+
+#StartMenu button{
+    width: 20vw;
+    font-size: 150%;
+    color: black;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+
+}
+#StartMenu button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  }
